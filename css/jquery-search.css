@@ -1,0 +1,103 @@
+/*********************** Jquery Search ************************************/
+
+.dataTables_length{
+	width:50%;
+	float:right;
+	text-align:right;
+}
+
+.dataTables_filter{
+	width:50%;
+	text-align:left;
+}
+
+.dataTables_filter label,.dataTables_length label {
+	font-size:14px;
+}
+
+.dataTables_filter label input {
+	line-height:16px;
+	height:20px;
+}
+.dataTables_length label select{
+	height:26px;
+}
+.dataTables_info{
+	font-size:14px;
+	float:right;
+	font-weight:600;
+}
+
+.dataTable th.sorting{
+	cursor:pointer;
+	background: url('../../images/sort_both.png') no-repeat center right #54255b;
+}
+.dataTable th.sorting_asc{
+	cursor:pointer;
+	background: url('../../images/sort_asc.png') no-repeat center right #54255b;
+}
+.dataTable th.sorting_desc{
+	cursor:pointer;
+	background: url('../../images/sort_desc.png') no-repeat center right #54255b;
+}
+.dataTables_paginate{
+	margin-top:5px;
+}
+.paginate_button{
+	background-attachment: scroll;
+    background-clip: padding-box !important;
+	background: -webkit-gradient(linear, left top, left bottom, from(#54255b), to(#cc60dc));
+    background: -moz-linear-gradient(top, #54255b, #cc60dc);
+    -filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#54255b, endColorstr=#cc60dc);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#54255b, endColorstr=#cc60dc)";
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+    border: 1px solid #cc60dc;
+    -moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 1em;
+    padding: 3px 6px;
+    text-decoration: none;
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.2);
+	margin-top:2px;
+
+}
+
+.paginate_button:hover, .paginate_active {
+	margin-top:2px;
+	background-attachment: scroll;
+    background-clip: padding-box !important;
+	background: -webkit-gradient(linear, left top, left bottom, from(#bbad54), to(#bbad54));
+    background: -moz-linear-gradient(top, #bbad54, #bbad54);
+    -filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#bbad54, endColorstr=#bbad54);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#bbad54, endColorstr=#bbad54)";
+	border: 1px solid #bbad54;	
+	color:#000;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+    -moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    display: inline-block;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 1em;
+    padding: 3px 6px;
+    text-decoration: none;
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.2);
+}
+

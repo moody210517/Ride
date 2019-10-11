@@ -1,0 +1,206 @@
+/****  Tamil Language CSS  ****/
+
+.reg_col{font-size:11px;}
+li.get_app .dropdown button.btn.btn-primary.dropdown-toggle {
+    font-size: 11px;
+}
+.estimate_form h2 {
+    font-size: 18px;
+}
+p.image_doc button
+{
+	    margin-top: 9px;
+}
+section.home_testmonial h1 {
+   
+    font-size: 25px;
+}
+.mobileno_change .inner_full span {
+    position: static;
+   
+}
+.mobileno_change input#mobile_number {
+    width: 86% !important;
+    left: 0px;
+}
+form#change_mobile_form li {
+    width: 100%;
+}
+.newsletter_btn ul li {
+   
+    font-size: 8px !important;
+}
+.newletter_contant
+{
+	font-size:9px;
+}
+.newsletter_btn input[type="submit"], .newsletter_btn input[type="button"]
+{
+	font-size:9px;
+}
+ul.nav.sidebar-nav li a {
+   
+    font-size: 12px;
+}
+.sign_up input[type="submit"], .sign_up input[type="button"]
+{
+	font-size:13px;
+}
+.rider_login_cont .login {
+    font-size: 11px;
+	}
+.rider_login_cont .forgot_pass a
+{
+font-size:10px;
+}	
+.rider_login_cont .right p {
+    font-size: 12px;
+}
+.rider_login_cont .register {
+    font-size: 13px;
+}
+section.footer_top h2 {
+    font-size: 16px;
+}
+.profile_det li a
+{
+font-size:11px;
+}	
+.dashboard h2 {
+    font-size: 12px;
+}
+.summary_detail li {
+    margin-left: 29px;
+}
+.dashboard p {
+    font-size: 8px;
+}
+.onride_ride_count_detail .detail a {
+    font-size: 10px;
+}	
+.onride_ride_count_detail .track a {
+   font-size: 10px;
+}
+.share_det_title h2
+{
+font-size:16px;
+}
+span.left_title
+{
+font-size:15px;
+}
+.driver_addr_detail h3 {
+    font-size: 12px;
+}
+.dirver_address_detail a {
+   
+    font-size: 12px;
+}	
+p.form_sub_title {
+    font-size: 16px;
+}
+.share_det_title h2 {
+   
+    font-size: 18px !important;
+}
+.rider_login_cont .right .social span {
+    font-size: 10px;
+}
+.share_detail .profile_ac_details h2
+{
+	font-size:16px;
+}	
+.profile_ac_inner_det .profile_ac_form label
+{
+font-size:12px;
+}
+.add_money_btn
+{
+font-size:14px;
+}
+.share_detail .profile_ac_details h2
+{
+font-size:15px;
+}
+.rate_title h2 {
+    font-size: 15px;
+}
+.inner_full span {
+    
+    position: relative;
+    top: 10px !important;
+}
+.cabily_amount h2 {
+    font-size: 16px;
+}
+.share_det_know h2 {
+    
+    font-size: 16px;
+}	
+.share_det_amount p:nth-child(4) {
+   
+    font-size: 16px;
+}	
+.Emr_btn {
+    
+    font-size: 13px;
+}
+h4#myModalLabel1 {
+    font-size: 15px;
+}
+.sign_driver_text span {
+    font-size: 12px;
+}
+.inner_full.editprofile input[type="submit"], .btn_profile
+{
+font-size:14px;
+}
+table.table-bordered.dataTable tbody th, table.table-bordered.dataTable tbody td, table.table-bordered.dataTable thead th
+{
+font-size:11px;
+}
+.rider_login_cont h2 {
+    font-size: 19px;
+}
+.rider_login_cont .login
+{
+	padding: 14px 11px;
+}	
+a.bck_login {
+    font-size: 11px !important;
+    margin: 0px;
+}
+.bck_login, .bck_login:hover
+{
+margin:0px !important;
+}
+.profile_ac_form .input_div input#password {
+    width: 100%;
+}
+.profile_ac_form .input_div input#old_password
+{
+	width: 100%;
+}
+.profile_ac_form .input_div input#confirm_password
+{
+	width:100%;
+}
+p#errBox {
+    color: #e74c3c;
+}
+p.error {
+    color: #e74c3c;
+}
+.p_car
+{
+	 background-size: 8% !important;
+}
+@media only screen and (max-width: 767px)
+{
+	div.mobileno_change input#mobile_number {
+    width: 62% !important;
+	}
+	.mobileno_change input#mobile_otp+input {
+    left: 48% !important;
+}
+}

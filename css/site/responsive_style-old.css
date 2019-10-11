@@ -1,0 +1,562 @@
+@media only screen and (max-width:767px){.top_head{text-align:center;}
+.head_top_logmenu{text-align:center !important;}
+div#cssmenu{text-align:left !important;}
+#cssmenu{background-color:#000;margin:20px 0px;}
+.cssmenu li a{color:white!important;}
+.image1 img{width:100%;}
+.howwework_image img{width:280px;padding-top:30px;padding-bottom:0px;margin-top:0px;}
+.image1_content p{text-align:justify;font-family:'Montserrat-Regular';padding-top:10px;}
+.free_consultation p{border-right:0px dashed black;}
+.available p{border-right:0px dashed black;}
+.image1_content{background-color:white;padding-top:10px;margin-top:25px;text-align:center;}
+.highlight_content img{height:10px;}
+.highlights li{list-style-type:none;padding-bottom:10px;}
+.hovereffect .overlay{margin-top:45px!important;}
+.cont{padding-right:20px;}
+.image1 img{width:100%;}
+.howwework_content{padding:0px;}
+.highlights_image img{width:94%;}
+.da-img{width:50% !important;}
+.slider_contant h2{font-size:12px !important;}
+.logo{text-align:center !important;}
+.cart_part{text-align:center !important;}
+.footer-section{text-align:center !important;}
+footer h4{text-align:center !important;}
+}
+@media screen and (max-width:767px){.rider_login_cont .right.no_padding{padding:20px;}
+.rider_login_cont .left.no_padding{padding:0px 20px;border-right:none;}
+.rider_login_sec{background-image:none;padding-bottom:50px;}
+.rider_login_cont h2{padding-left:20px;}
+}
+@media screen and (max-width:425px){.rider_login_cont .login{padding:11px 26px;}
+.rider_login_cont .login i, .rider_login_cont .register i{padding-left:8px;}
+}
+@media screen and (max-width:321px){.rider_login_cont .forgot_pass a{padding-top:10px;padding-left:0px;margin:10px 5px;line-height:20px;}
+.rider_login_cont .login{padding:11px 21px;font-size:13px;margin-left:5px;}
+.rider_login_cont .left.no_padding{padding:10px;}
+.rider_login_cont h2{padding-left:10px;}
+.rider_login_cont .login i, .rider_login_cont .register i{padding-left:8px;}
+}
+@media only screen and (max-width:1200px){body{overflow-x:hidden;}
+}
+@media only screen and (min-width:1024px) and (max-width:1180px){.reg_col li{padding:0px 10px;}
+section.play_store_app{padding:53px 0px;}
+.estimate_form h2{font-size:28px;}
+.sign_up input[type="submit"]{width:100%;background-size:100% 100%;}
+.estimate_detail .row1{padding:15px 0px;}
+.sign_up input[type="submit"]:hover{width:100%;background-size:100% 100%;}
+.newsletter_btn ul li{width:48%;}
+.newsleter{width:99%;left:3px;}
+.newletter_contant{width:68%;}
+.newsletter_btn{width:31%;}
+.estimate_map.book_map iframe{height:410px;}
+.editprofile .input_div.selc select{float:left;height:46px;}
+.editprofile .input_div.selc input{float:right;height:46px;width:67% !important;}
+.selc input[type="submit"]{top:-48px !important;}
+.editprofile .input_div.selc select{width:111px !important;}
+}
+@media only screen and (min-width:768px) and (max-width:1023px){.site_reg{float:right;width:54%;}
+.site_logo{float:left;width:26%;}
+.inner_full.editprofile .col li{width:100%;margin-top:20px;}
+.nav_menu{float:left;width:20%;}
+.carousel-caption h1{font-size:50px;}
+.carousel-caption{top:16%;}
+.banner .carousel-indicators{display:none;}
+section.why_choose_cabily{padding-bottom:35px;}
+.row.why_header{padding-top:25px;}
+.download_app h4{font-size:15px;}
+.download_app h1{font-size:30px;}
+.download_app p{font-size:12px;}
+.download_app{width:60%;}
+.play_store_image{position:absolute;top:-24.3em;right:-97px;width:45%;}
+section.play_store_app{padding:0px 0px;}
+.play_store_image img{width:70%;}
+.download_btn li{width:40% !important;}
+.download_btn li a img{width:100% !important;}
+.ride_map{width:48%;float:right;}
+.p_form_part{width:48%;float:left;}
+.newsleter{position:static;}
+.newletter_contant{position:static;width:100%;text-align:center;float:none;padding:10px 0px;}
+.newsletter_btn{float:none;padding:10px 0px;text-align:center;width:100%;}
+section.footer_top li a{font-size:12px;}
+section.footer_top h2{font-size:16px;}
+.footer_part1{width:32%;float:left;}
+.footer_part2{width:32%;float:left;}
+.footer_part3{width:32%;float:right;}
+.footer_social_part .logo a img{width:100%;}
+.footer_information{margin-left:0px;}
+.profile_det{max-width:30%;}
+.share_detail{max-width:70%;}
+.profile_login_cont{padding:65px 25px;}
+.dashboard .totalrides{width:48%;min-height:125px;}
+.dashboard .upcoming{width:48%;min-height:125px;}
+.dashboard .completed{width:48%;margin:0px;margin-top:15px;min-height:125px;}
+.dashboard .onride{width:48%;min-height:125px;margin:0px;margin-top:15px;}
+.earning_col .ride_summary{width:55%;margin:0px;margin-top:15px;margin-left:23%;min-height:auto;}
+.earning_col .last_weak_earning{width:55%;margin:0px;margin-left:23%;min-height:auto;}
+.earning_col .total_earning{width:55%;margin:0px;margin-left:23%;min-height:auto;margin-top:15px;float:left;}
+.profile_info_col{padding:15px 0px;}
+.driver_info{width:55%;float:right;}
+.driver_profile_part .driver_img{width:35%;float:left;height:auto;margin:0px auto;}
+.driver_location_part li{text-align:center;margin-left:0px;}
+.driver_location_part li p.driver_loc_img::before{position:static;display:block;margin:0px auto;}
+.driver_location_part li p.driver_category_img::before{position:static;display:block;margin:0px auto;}
+.driver_location_part p{position:static;}
+.driver_img .image_editor{padding:7px 6px;width:25px;right:-11px;top:38px;font-size:10px;height:25px;}
+.dirver_address_detail .d_add_part{width:300px;float:none;margin:0px auto;}
+.d_cur_passowrd.driver_addr_detail{width:300px;float:none;margin:0px auto;margin-top:60px;}
+.d_license.driver_addr_detail{width:300px;float:none;margin:0px auto;margin-top:60px;}
+.dirver_address_detail .dir_icon{width:85%;}
+.editprofile .input_div.selc select{float:left;height:46px;}
+.editprofile .input_div.selc input{float:right;height:46px;width:67% !important;}
+.selc input[type="submit"]{top:-48px !important;}
+.inner_full.editprofile .col li select{padding:13px 3px;}
+span.l_label{width:50%;}
+span.r_label{width:47%;font-size:12px;}
+.profile_ac_form .no_padding.right{padding-left:0px;}
+section.footer_top{padding:20px 0px;}
+.favloc{overflow:auto;}
+.favloc table{width:620px;}
+.ride_long_detail{width:100%;}
+.rider_cost_detail{width:100%;margin-top:10px;}
+.moneytrancsaction .profile_ac_inner_det .profile_ac_details input{width:47%;position:relative;}
+.moneytransaction span input{width:200px !important;}
+.moneytransaction .from img{top:-3px;right:18px;position:absolute;}
+.many_trans table{width:575px !important;}
+.profile_ac_form.many_trans{overflow:auto;}
+.profile_ac_form .no_padding.left{padding-right:0px;}
+.rate_detail .inner_left{width:70%;}
+.rate_detail .inner_right{width:30%;}
+.register_form_detail{width:50% !important;margin:0px auto;}
+.edit_form_profile .chosen-container-single .chosen-single{margin-top:10px;}
+.edit_form_profile .inner_full.editprofile .col li{width:100%;margin-top:10px;}
+.edit_form_profile p.form_sub_title.secondary_form{padding-bottom:20px;position:relative;top:20px;}
+}
+@media only screen and (min-width:900px) and (max-width:1023px){.profile_edit_img{right:55px;}
+}
+@media only screen and (max-width:767px){.banner .carousel-indicators{display:none;}
+.download_app_bg{padding:15px;width:90%;margin:0px auto;}
+div#wrapper .menu{display:none;}
+.download_app{width:100%;text-align:center;}
+.hamburger{position:absolute;top:0px;margin-left:0px;}
+.play_store_image{display:none;}
+.download_btn li{margin:0px;}
+.download_btn li:nth-child(2){margin-top:20px;}
+section.play_store_app{padding:15px 0px;}
+section.priceing{padding:25px 0px;text-align:center;}
+.estimate_form h2{font-size:22px;margin-top:5px;}
+p.estimate_input_border{top:88px;}
+.sign_up input[type="submit"]{width:100%;background-size:100% 100%;}
+.sign_up input[type="submit"]:hover{background-size:100% 100%;}
+section.home_testmonial{padding:20px 0px;}
+section.home_testmonial h1{font-size:30px;}
+.testimonial_contant{width:100%;}
+.newsleter{width:100%;position:static;box-shadow:none;border-radius:0px;}
+.newletter_contant{width:100%;text-align:center;position:static;}
+.newsletter_btn{width:100%;margin-top:20px;}
+.newsletter_btn ul li{width:48%;}
+.newletter_contant span{display:block;padding-bottom:10px;}
+section.footer_top{padding:10px 0px;}
+.footer_information{margin-left:0;}
+.footer_information{text-align:center;}
+.head_border{width:50%;margin:0px auto;}
+.keepintouch{text-align:center;}
+.keepintouch ul li.f_address::before{display:block;position:static;text-align:center;margin:0px auto;margin-bottom:10px;background-repeat:no-repeat;}
+.keepintouch ul li.f_mail::before{display:block;position:static;text-align:center;margin:0px auto;margin-bottom:10px;background-repeat:no-repeat;}
+.keepintouch ul li.f_number::before{display:block;position:static;text-align:center;margin:0px auto;margin-bottom:10px;background-repeat:no-repeat;}
+.keepintouch ul li.f_website::before{display:block;position:static;text-align:center;margin:0px auto;margin-bottom:10px;background-repeat:no-repeat;}
+.newsletter_btn input[type="submit"]{width:100%;}
+.newsletter_btn input[type="email"]{width:100%;}
+section.why_choose_cabily{padding-bottom:15px;}
+.profile_det{max-width:100%;}
+.share_detail{max-width:100%;}
+.inner_full.editprofile .col li{width:96%;float:none !important;}
+.inner_full.editprofile .col li p{padding-top:15px;}
+.dashboard .totalrides{width:100%;}
+.dashboard .upcoming{width:100%;margin:0px;margin-top:15px;}
+.dashboard .completed{width:100%;margin:0px;margin-top:15px;}
+.dashboard .onride{width:100%;margin:0px;margin-top:15px;}
+.earning_col .last_weak_earning{width:100%;min-height:auto;}
+.earning_col .total_earning{width:100%;min-height:auto;margin:0px;margin-top:15px;}
+.earning_col .ride_summary{width:100%;min-height:auto;margin:0px;margin-top:15px;}
+.profile_pic_contt{width:150px;margin:0px auto;}
+.profile_edit_img{right:0px;}
+.dirver_address_detail .d_add_part{width:100%;}
+.dirver_address_detail .d_cur_passowrd{width:100%;margin:0px;margin-top:60px;}
+.dirver_address_detail .d_license{width:100%;margin:0px;margin-top:60px;}
+span.left_title{width:75%;font-size:15px;}
+span.edit_title{width:24%;font-size:15px;padding-right:10px;}
+.driver_profile_part{width:100%;}
+.driver_img{float:none;margin:0px auto;}
+.profile_info_col{padding:10px 0px;}
+.driver_info{width:100%;text-align:center;margin-top:20px;}
+.driver_location_part{width:100%;}
+.driver_location_part li{margin-left:0px;width:48%;display:inline-block;text-align:center;}
+.driver_location_part p{position:relative;padding-top:0px;padding-left:0px;}
+.driver_location_part li p.driver_loc_img::before{display:block;position:static;background-repeat:no-repeat;margin:0px auto;}
+.driver_location_part li p.driver_category_img::before{position:static;display:block;margin:0px auto;}
+.driver_location_part h4{font-size:13px;}
+.driver_location_part p{font-size:12px;}
+.many_trans div#example_wrapper{overflow-x:scroll;}
+#example{width:600px !important;}
+.inner_full.editprofile input[type="submit"]{margin-top:-15px;}
+p.form_sub_title.secondary_form{margin-top:90px;padding-bottom:14px;}
+.inner_full.editprofile .col li select{padding:13px 3px;}
+.editprofile .input_div.selc select{float:left;height:46px;}
+.editprofile .input_div.selc input{float:right;height:46px;width:67% !important;}
+.inner_full.editprofile .input_div.selc input[type="submit"]{top:-23px;}
+.acc_info input{margin-top:30px !important;}
+.veh_info{margin-top:0px !important;}
+.col.vehical_sub input{margin-top:20px !important;}
+.docu_info{margin-top:0px !important;}
+.col.docu_sub input{margin-top:20px !important;}
+.inner_full.editprofile .col li img{top:56px;}
+span.l_label{width:50%;}
+span.r_label{width:47%;font-size:12px;}
+.share_det_title h2 span{padding-left:9px;}
+.share_det_title h2{font-size:15px;letter-spacing:1px !important;}
+.profile_ac_form .no_padding.left{padding-right:5px;}
+.profile_ac_form .input_div select{padding:12px 20px;padding-left:4px !important;background-position:90%;}
+.profile_ac_form .input_div.selc input{padding:10px;}
+.profile_ac_form .no_padding.right{padding-left:0px;padding-right:5px;}
+.Emr_btn{margin-top:5px;}
+.emr_span{padding-top:15px;}
+.favloc{overflow:auto;}
+.favloc table{width:620px;}
+.ride_long_detail{width:100%;}
+.rider_cost_detail{width:100%;margin-top:10px;}
+.fare_breakdown li.fare_name{width:60%;}
+li.fare_name span{display:none;}
+.site_login{padding:20px 0px !important;}
+.log-base-sec{padding:20px 0px !important;}
+.moneytrancsaction .profile_ac_inner_det .profile_ac_details input{width:100% !important;}
+.moneytrancsaction .profile_ac_inner_det .profile_ac_details span input{width:95% !important;}
+.moneytransaction .from img{top:0px;right:18px;position:absolute;}
+.moneytransaction span.to img{position:absolute;right:18px;}
+.many_trans div#example_filter{width:100%;}
+.rdd_btn{width:100%;margin-top:20px;}
+#example_filter label input{width:auto;margin-top:10px;}
+.myrides .profile_ac_inner_det .profile_ac_details input{width:100%;}
+.profile_upload{padding-left:0px;margin-top:20px;}
+.inputfile + label{max-width:100%;}
+.prv_btn{width:100%;margin:0px;margin-top:10px;}
+.profile_pic_cont{width:100%;height:auto;margin-top:30px;}
+.select_rate .inner_left{width:100%;}
+.select_rate .inner_right{width:100%;margin-top:30px;}
+.select_rate .rate_top_cont select{width:100%;}
+.rate_detail .inner_right{text-align:right;}
+.share_detail .social .social_icon{padding-left:15px;}
+}
+@media only screen and (min-width:667px) and (max-width:767px){.carousel-caption{top:10% !important;}
+}
+@media only screen and (min-width:568px) and (max-width:767px){section.header{position:static;}
+.banner{position:relative;}
+.site_reg{float:right;width:54%;}
+.site_logo{float:left;width:26%;}
+.nav_menu{float:left;width:20%;}
+.reg_col li{padding:0px 10px;}
+.reg_col{font-size:11px;}
+.head_border{width:25%;}
+.sign_up input[type="submit"]{background-image:none !important;background-color:#e74c3c;}
+.sign_up input[type="submit"]:hover{background-image:none !important;background-color:#000;}
+.carousel-caption h1{font-size:40px;}
+.carousel-caption p{font-size:20px;}
+.carousel-caption{top:0%;}
+.profile_det{max-width:40%;}
+.share_detail{max-width:58%;}
+.amount_div,.add_money_btn{width:100%;}
+}
+@media only screen and (max-width:567px){#wrapper.toggled #sidebar-wrapper{width:260px;}
+#wrapper.toggled{padding-left:240px;}
+section.header{position:static;z-index:999;}
+.profile_det{max-width:100%;}
+.reg_col{text-align:center;margin-top:20px;}
+.reg_col{font-size:11px;}
+.reg_col li{padding:0px 12px;}
+.get_app .btn{font-size:11px !important;}
+.get_app .dropdown-menu{margin-top:9px !important;}
+li.get_app .dropdown button.btn{padding:0px;margin-top:1px;}
+.reg_col li{z-index:999;}
+.carousel-caption h1{font-size:20px;margin-bottom:8px;}
+.carousel-caption p{font-size:13px;margin-bottom:5px;}
+.carousel-caption p.getup a{font-size:11px;padding:9px 30px;}
+.carousel-caption{top:-20px;}
+.carousel-caption p.booknow a{font-size:11px;}
+section.banner{position:relative;}
+.row.why_header{padding-top:15px;}
+.row.why_header h1{font-size:20px;}
+.row.why_header h1{margin:10px 0px;}
+.row.why_header h2{margin:10px 0px;font-size:14px;}
+.why_pg{width:100%;height:auto;background-size:cover;background-position:50% 100%;}
+.why_pg:hover{background-size:cover;background-position:50% 100%;}
+.download_app h4{font-size:15px;}
+.download_app h1{font-size:22px;}
+.download_app p{font-size:13px;}
+.amount_div,.add_money_btn{width:100%;}
+.rate_title h2{font-size:16px;}
+}
+@media only screen and (min-width:480px) and (max-width:567px){.site_logo{width:31%;float:left;margin-top:30px;}
+.site_reg{width:68%;float:right;margin-top:19px;}
+}
+@media only screen and (min-width:400px) and (max-width:567px){.carousel-caption{top:15%;}
+}
+@media only screen and (min-width:768px) and (max-width:1023px){.earning_col .last_weak_earning{width:100% !important;margin:0px;}
+.earning_col .ride_summary{width:42%;width:100%;margin:0px;margin-top:20px;}
+.earning_col .total_earning{width:100% !important;overflow-x:scroll;margin:0px;margin-top:20px;}
+.inner_full{font-size:12px;}
+.driver_location_part p{font-size:12px;}
+.dirver_address_detail .d_add_part{margin-top:60px;}
+.dirver_address_detail .d_add_part:nth-child(1){margin-top:0px;}
+.logo{float:left;width:25%;}
+section.header .menu{float:left;width:24%;}
+.earning_col .ride_summary{width:100%;}
+.profile_ac_inner_det table{width:800px !important;}
+.profile_ac_inner_det{overflow-x:scroll;}
+.profile_login_cont .profile_ac_inner_det{overflow-x:hidden;}
+form#change_mobile_form .col li{width:85%;}
+div#country_code_chosen{top:10px;}
+.chosen-container-single .chosen-single{line-height:45px !important;}
+.editprofile .input_div.selc input{height:43px !important;}
+form#change_mobile_form input#mobile_number{width:72% !important;}
+.mobileno_change form#change_mobile_form input#mobile_number{width:74.5% !important;margin-top:0px;}
+.mobileno_change .inner_full.editprofile .input_div.selc input[type="button"]{left:73% !important;margin-top:0px;}
+.mobileno_change .chosen-drop .chosen-search input.chosen-search-input{width:100% !important;}
+}
+@media only screen and (min-width:568px) and (max-width:767px){section.header .logo{float:left;width:53%;text-align:center;}
+section.header .menu{float:left !important;}
+section.banner{position:relative;}
+}
+@media only screen and (max-width:567px){.share_detail{float:none;}
+.driver_location_part li{width:100%;}
+.inner_full.editprofile input{font-size:10px;}
+div.dataTables_wrapper div.dataTables_filter input{display:block;}
+.pagination>li>a, .pagination>li>span{padding:6px 6px;margin-bottom:20px;}
+.reg_col li.get_app ul.dropdown-menu.inner{right:-50% !important;}
+}
+@media only screen and (max-width:767px){.editprofile .input_div.selc input{float:right;height:43px;width:63% !important;display:inline-block;float:none;}
+.profile_ac_form.myride table{width:700px !important;}
+.myrides .profile_ac_inner_det .profile_ac_details input{width:93%;}
+.chosen-container-single .chosen-single{line-height:45px !important;}
+input#otp_send_btn{width:100% !important;float:none !important;position:static;text-align:center;}
+.earning_col .last_weak_earning{width:100% !important;}
+.earning_col .ride_summary{width:100% !important;}
+.last_weak_earning{overflow-x:scroll;}
+.ride_summary{overflow-x:scroll;}
+.total_earning_detail{overflow-x:scroll;}
+.vehicleinformation_doc .vehicleinformation_detail{margin-left:25px;margin:0px;margin-top:60px;}
+.vehicleinformation_doc .vehicleinformation_detail:nth-child(1){margin-top:0px !important;}
+.myrides table.dataTable, .moneytrancsaction table.dataTable{width:800px !important;}
+}
+@media only screen and (min-width:1024px) and (max-width:1124px){.reg_col ul{padding:0px;}
+.sign_up input[type="submit"], .sign_up input[type="button"]{width:100%;}
+.mobileno_change input#otp_send_btn{top:0px !important;background-color:transparent;left:72% !important;}
+div#map{width:100% !important;}
+.driver_reg_form{min-height:620px;}
+.driver_form_detail h1{font-size:30px;}
+.driver_form_detail{width:100%;}
+.col-lg-6.sig_up_fb1{float:left;width:100%;text-align:left;}
+.col-lg-6.sig_up_fb2{width:100%;text-align:left;}
+.col-lg-6.sig_up_fb2 a{padding-left:15px;}
+.chosen-container-single .chosen-single span{margin-right:10px;margin-left:5px;}
+.r_phone_num .chosen-container-single .chosen-single span{margin-left:3px;}
+.r_phone_num input#mobile_number{width:57% !important;}
+.signup_to_ride_form div#country_code_chosen{width:125px !important;}
+.msform select#country_code{width:39%;padding:10px 10px;}
+.mobileno_change .chosen-container .chosen-results{width:100% !important;}
+.mobileno_change .chosen-drop .chosen-search input.chosen-search-input{width:100% !important;}
+}
+@media only screen and (min-width:768px) and (max-width:1023px){div#map{width:100% !important;}
+form.msform div#init_box_country_code_chosen{margin-top:10px;}
+.mobileno_change input#otp_send_btn{top:0px !important;left:72% !important;background-color:transparent;}
+.mobileno_change .chosen-container .chosen-results{width:100% !important;}
+.msform input#mobile_number{float:right;width:70.4%;}
+.estimate_map.book_map{width:100%;}
+.profile_login_cont .profile_ac_inner_det{overflow:hidden;}
+.ride_long_detail{min-height:615px !important;}
+.ride_cash_detail .rider_cost_detail{min-height:615px;}
+.inner_full.editprofile input{font-size:14px;}
+.r_phone_num input#mobile_number{width:62.5% !important;}
+.footer_information{float:right;width:23%;}
+.footer_social_part{float:left;width:43%;}
+.keepintouch{float:left;width:30%;}
+.logo{float:none;width:50%;margin:0px auto;}
+.driver_form_detail{width:100%;}
+.driver_register_form{margin-right:15%;}
+.driver_reg_form{min-height:775px;}
+.col-md-5.contact_right .keepintouch{width:100%;}
+.col-md-5.contact_right{float:right;width:45%;}
+.col-md-6.contact_left{float:left;width:55%;}
+.col-md-6.contact_left ul{padding:0px;}
+.col-md-4.col-lg-4.register_form_detail{width:55% !important;}
+.col-lg-6.sig_up_fb1{float:left;}
+.chosen-container-single .chosen-single{line-height:52px !important;margin-top:-10px;}
+div#display_payments_tbl_wrapper .row .col-sm-12{overflow-x:scroll !important;}
+.share_inner_details{padding-bottom:0px;}
+}
+@media only screen and (max-width:767px){.reg_col ul{padding:0px;}
+.profile_login_cont.emergency_contact_loc input#em_mobile{width:60% !important;}
+.share_detail.dirver_reg_form{padding:10px;}
+.profile_login_cont.emergency_contact_loc div#em_mobile_code_chosen{width:100px !important;}
+.profile_mobile_edit_img{margin-top:0px;position:absolute;top:7px;right:0px;}
+.whatever:last-child{margin-top:10px;}
+.share_inner_details{padding-bottom:0px;}
+.profile_ac_form .input_div.selc{position:relative;}
+.rate_detail .inner_right{padding-right:10px;}
+.invoice_header .invoice_title{width:100%;text-align:center;}
+.invoice_header .back_to_list{float:none;width:71%;margin:0px auto;display:table;text-align:center;}
+.priceing_form.booking_form{width:95% !important;}
+section.priceing.booking .col-lg-6.col-md-6{padding:0px !important;}
+p.estimate_input_border.booking_border{left:17px;}
+.profile_ac_inner_det{padding:0px;}
+.book_map{width:100% !important;}
+i.fa.fa-long-arrow-left{right:10px;position:relative;}
+.rider_img{float:none;margin:0px auto;}
+.fare_breakdown li.fare_name{width:55%;}
+.total_via{margin-top:0px;}
+.rider_name{width:100%;text-align:center;}
+.myrides div#display_rides_tbl_wrapper{overflow-x:scroll;}
+.rider_login_sec{padding-top:10px;}
+.rider_login_sec{padding-bottom:10px !important;}
+.sign_up input[type="submit"], .sign_up input[type="button"]{width:100% !important;}
+.login-base h1{margin-bottom:10px;}
+form#rider_register_form .chosen-container-single .chosen-single{line-height:51px !important;}
+.driver_form_detail h1{font-size:20px;line-height:28px;}
+.driver_form_detail{width:100%;}
+section.ddriver_reg_banner{padding-top:10px;}
+.driver_register_form{width:100%;}
+.driver_reg_form{min-height:800px;}
+.dirver_money .icon{background-repeat:no-repeat;margin:0px auto;background-position:center;}
+.dirver_money .detail{width:100%;}
+section.rider-register{padding:0px;}
+.driver_timeing .icon{background-position:center;width:100%;background-repeat:no-repeat;}
+.driver_timeing .detail{width:100%;}
+.col-lg-6.sig_up_fb2 a{padding-left:15px;}
+form#cms_contact_form ul{padding:0px;}
+section.contact.row{top:10px;}
+section.contact.row .contact_left ul li.col-md-5{width:100%;}
+.col-md-5.contact_right h2{margin-left:0px !important;}
+section.contact.row .contact_left ul li.col-md-5{width:100%;}
+section.contact.row{padding-bottom:20px !important;}
+.dirver_money .icon{width:100%;}
+section.driver_reg_feature{text-align:center;}
+.cms_base_div h1{font-size:23px;}
+.myrides div#display_payments_tbl_wrapper{overflow-x:scroll;}
+}
+@media only screen and (min-width:568px) and (max-width:767px){section.header .logo{width:50%;}
+.col-lg-6.sig_up_fb1{float:left;}
+.col-lg-6.sig_up_fb1,.col-lg-6.sig_up_fb2{text-align:left;}
+form#cms_contact_form ul{padding:0px;}
+.pagination>li>a, .pagination>li>span{padding:6px 6px;}
+.mobileno_change .chosen-container .chosen-results{width:100% !important;}
+.mobileno_change .chosen-drop .chosen-search input.chosen-search-input{width:100% !important;}
+.priceing_form .sign_up input[type="button"]{width:100%;}
+input#total_amount{padding:10px;font-size:13px;text-align:center;}
+.msform select#country_code{width:39%;}
+.chosen-container-single .chosen-single span{margin-left:5px !important;}
+div#map{width:100% !important;}
+.signup_to_ride_form div#country_code_chosen{width:22% !important;}
+}
+@media only screen and (max-width:567px){div#map{width:100% !important;}
+.fare_breakdown li.fare_name{font-size:12px;}
+.msform select#country_code{width:39%;padding:14px 5px;}
+.col-lg-6.sig_up_fb1{width:100%;text-align:left;}
+.reg_col li.get_app ul.dropdown-menu.inner{right:-70% !important;}
+.share_detail.cabilymoney{padding-bottom:915px;}
+input#total_amount{font-size:13px;padding:10px;text-align:center;}
+.profile_det{padding-bottom:0px !important;float:none;}
+.chosen-container .chosen-results li.active-result{font-size:10px;}
+.quote{width:80%;}
+.col-lg-6.sig_up_fb2{width:100%;text-align:left;}
+.rider_login_cont h2{font-size:20px;line-height:35px;}
+.chosen-container-single .chosen-single span{margin-right:5px !important;}
+.chosen-container-single .chosen-single div b{right:1px !important;}
+.chosen-container-single .chosen-single span{margin-left:5px !important;}
+.why_pg{height:265px;}
+.profile_login_cont{padding:10px !important;}
+.msform select#country_code{width:39% !important;}
+}
+@media only screen and (min-width:734px) and (max-width:767px){.r_phone_num input#mobile_number{width:79.5% !important;}
+}
+@media only screen and (min-width:667px) and (max-width:733px){.r_phone_num input#mobile_number{width:77.2% !important;}
+}
+@media only screen and (min-width:600px) and (max-width:666px){.r_phone_num input#mobile_number{width:74.5% !important;}
+}
+@media only screen and (min-width:568px) and (max-width:599px){.r_phone_num input#mobile_number{width:73% !important;}
+}
+@media only screen and (min-width:480px) and (max-width:567px){.why_pg{height:310px;}
+}
+@media only screen and (min-width:414px) and (max-width:479px){div#country_code_chosen{width:115px !important;}
+.r_phone_num input#mobile_number{width:62.6% !important;}
+.why_pg{height:290px;}
+}
+@media only screen and (min-width:384px) and (max-width:413px){div#country_code_chosen{width:124px !important;}
+}
+@media only screen and (min-width:375px) and (max-width:383px){}
+@media only screen and (min-width:320px) and (max-width:374px){.signup_to_ride_form input#mobile_number{width:58.5% !important;}
+.signup_to_ride_form div#country_code_chosen{width:112px !important;}
+}
+@media only screen and (max-width:567px){.share_det_title > h2{letter-spacing:1px;}
+.rate_card .profile_login_cont .share_detail{padding-bottom:0px;margin-bottom:0px;}
+.mobileno_change div#country_code_chosen{margin-top:2px;}
+.driver_register_form form.msform div#init_box_country_code_chosen a.chosen-single span{font-size:10px !important;}
+.driver_register_form input{font-size:12px;}
+div#mobile_container select#country_code{font-size:11px !important;padding-right:5px;height:48px;}
+}
+@media only screen and (max-width:767px){input#em_mobile+label{position:relative;left:23px;top:-6px;}
+.sign_up input[type="submit"], .sign_up input[type="button"]{background-size:100% 100%;}
+.sign_up input[type="submit"]:hover, .sign_up input[type="button"]:hover{background-size:100% 100%;}
+.estimate_map{margin-top:10px;}
+section.news_letter_part{padding-bottom:10px;}
+.edit_form_profile span.l_label{width:100%;}
+p.image_doc span{width:100% !important;}
+p.image_doc button{width:100%;margin-top:10px;}
+.change_phone_popup select#country_code{width:35% !important;padding:5px;line-height:20px;font-size:12px;}
+.driver_profile{padding-right:10px;}
+.edit_form_profile .profile_ac_inner_det{padding-right:7px;}
+.edit_form_profile .profile_mobile_edit_img{top:49px !important;}
+div.dataTables_wrapper div.dataTables_filter{width:100%;}
+.mobileno_change input#mobile_number{width:63% !important;}
+.mobileno_change input#mobile_otp+input{left:62% !important;}
+.mobileno_change .chosen-drop .chosen-search input.chosen-search-input{width:100% !important;}
+.mobileno_change div#country_code_chosen{width:35% !important;}
+}
+@media only screen and (min-width:568px) and (max-width:767px){.change_phone_popup select#country_code{width:20% !important;}
+div#display_rides_tbl_length select.form-control.input-sm{margin-left:18px;}
+}
+@media only screen and (min-width:768px) and (max-width:1023px){.mobileno_change div#country_code_chosen{width:27% !important;}
+.mobileno_change form#change_mobile_form input#mobile_number{width:73% !important;margin-top:0px;}
+.myrides div#display_rides_tbl_wrapper{overflow-x:scroll;}
+.hover-fav{left:88%;}
+.whypart_contant{padding:17px 20px;margin-top:10px;}
+}
+@media only screen and (min-width:1024px) and (max-width:1180px){.mobileno_change input#mobile_number{width:71% !important;margin-top:0px;}
+.whypart_contant{padding:17px 20px;margin-top:10px;}
+.mobileno_change div#country_code_chosen{width:29% !important;}
+.chosen-container-single .chosen-single{height:46px !important;}
+.mobileno_change .inner_full.editprofile .input_div.selc input[type="button"]{left:74% !important;margin-top:0px;}
+table.display{width:1125px;}
+.table_content{overflow:auto;}
+.social_activities.last-activity .activities_s{width:30.9%;}
+}
+@media only screen and (max-width:767px){.hover-fav{position:absolute;left:82%;z-index:999;}
+.whypart_contant{padding:17px 20px;margin-top:10px;}
+.profile_login_cont span#image-holder{width:80%;margin:10%;}
+}
+@media only screen and (max-width:360px){.hover-fav{left:80%;}
+}
+@media only screen and (max-width:567px){.amount_div, .add_money_btn{width:98%;}
+.newsletter_btn ul li{width:48% !important;}
+}
+@media only screen and (min-width:768px) and (max-width:1023px){.inner_full.editprofile .col li{width:100%;}
+.dirver_reg_form .editprofile .inputfile + label{width:100%;margin-right:0%;}
+}
+@media only screen and (max-width:767px){.inner_full.editprofile .col li{width:100%;}
+button#booking{padding-left:20px !important;background-size:95% 100% !important;}
+.dirver_reg_form .editprofile .inputfile + label{width:100%;margin-right:0%;}
+.dirver_reg_form span.l_label{width:100%;}
+.driver_location_part p{left:0px;}
+.vehicleinformation_right li p{padding-top:20px;}
+.profile_ac_inner_det{margin-right:10px;}
+}
+@media only screen and (max-width:567px){li.upcome_count.count{width:35%;}
+}

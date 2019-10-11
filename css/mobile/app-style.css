@@ -1,0 +1,481 @@
+/* Getting the new tags to behave */
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video, banner {
+	display:block
+}
+mark, rp, rt, ruby, summary, time {
+	display:inline
+}
+/* Left & Right alignment */
+.left {
+	float:left !important;
+}
+.right {
+	float:right !important;
+}
+.none {
+	float:none !important;
+}
+.clear {
+	clear: both;
+}
+/* Global properties ======================================================== */
+
+
+body {
+	background:#f3f0eb;
+	font-size:13px;
+	font-family: Arial, Helvetica, sans-serif;
+	color:#333333;
+	line-height:20px;
+	margin:0;
+	width:100%;
+}
+/* Global Structure ============================================================= */
+
+.main {
+	margin: 0 auto;
+	width:100%;
+	max-width: 100%;
+	position:relative;
+}
+/* Header */
+header {
+	width:100%;
+	float:left;
+}
+/* Nav */
+nav {
+	width:100%;
+	float:left;
+}
+/* article */
+article {
+	width:100%;
+	float:left;
+}
+/* Section */
+section {
+	width:100%;
+	float:left;
+}
+/* Footer */
+footer {
+	width:100%;
+	float:left;
+	background:#f3f3f3;
+}
+a {
+	color:#09B2F1;
+	text-decoration:none;
+	outline:none
+}
+a:hover {
+	text-decoration:none
+}
+h1 {
+	padding:0px;
+	margin:0px;
+	font-weight:normal;
+}
+h2 {
+	padding:0px;
+	margin:0px;
+	font-weight:normal;
+}
+h3 {
+	padding:0px;
+	margin:0px;
+	font-weight:normal;
+}
+h4 {
+	padding:0px;
+	margin:0px;
+	font-weight:normal;
+}
+h5 {
+	padding:0px;
+	margin:0px;
+	font-weight:normal;
+}
+p {
+	padding:0px;
+	margin:0px;
+}
+ul {
+	margin:0;
+	padding:0;
+}
+li {
+	list-style:none;
+	text-align:left;
+}
+.M10 {
+	margin-top:3em !important;
+}
+.M5 {
+	margin-top:1.3em !important;
+}
+.curuve3 {
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+}
+img {
+	border:none;
+}
+
+
+
+
+/* card-Detail ============================================================= */
+
+
+.app-content {
+    padding: 15px;
+}
+.app-content-box{
+	display:inline-block;
+	background: #fafafa;
+	box-shadow:0 0 3px 0 #d9d9d9;
+	-moz-box-shadow:0 0 3px 0 #d9d9d9;
+	-webkit-box-shadow:0 0 3px 0 #d9d9d9;
+	border-radius: 4px;
+	width: 100%;
+}
+.app-content-box h1{
+	color: #2e2e2e;
+	font-size:18px;
+	line-height: 24px;
+	padding: 15px;
+	border-bottom: 1px solid #bebcbc; 
+}
+
+.app-content-box ul {
+    padding: 25px 20px;
+}
+.app-content-box ul li {
+    border-bottom: 1px solid #bebcbc;
+    margin-bottom: 5px;
+    padding: 15px 0 5px;
+}
+.app-content-box ul li label{
+    color: #959695;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.input-scroll {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: medium none;
+    color: #333;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+}
+.input-scroll-2 {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: medium none;
+    color: #333;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    margin-left: 10px;
+    width: 60px;
+}
+.input-scroll-3 {
+    background: url("images/credit_card.png") no-repeat scroll right 0 rgba(0, 0, 0, 0);
+    border: medium none;
+    color: #333;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    width: 100%;
+}
+.input-scroll-4 {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: medium none;
+    color: #333;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    width: 210px;
+}
+.card-icon {
+    background: url("images/credit_card.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    cursor: pointer;
+    float: right;
+    height: 27px;
+    width: 150px;
+}
+.app-content-box ul li.last{
+   border-bottom: none;
+}
+.input-submit-btn {
+    background: none repeat scroll 0 0 #ff9600;
+    border: medium none;
+    border-radius: 4px;
+    color: #000;
+    cursor: pointer;
+    font-size: 16px;
+    padding:13px 30px;
+}
+.close_btn {
+    background: url("images/close-img.png") no-repeat scroll 0 7px rgba(0, 0, 0, 0);
+    cursor: pointer;
+    float: right;
+    height: 25px;
+    text-align: center;
+    width: 19px;
+}
+
+
+
+/* Shipping ============================================================= */
+
+
+.app-shipping{
+	background: #d9dad9;
+    padding:20px 0px 35px 0px;
+}
+.app-shipping-level {
+    height: 37px;
+    margin: 0 auto;
+    width: 320px;
+}
+.app-shipping-level li {
+    color: #a2a2a2;
+    display: inline-block;
+    font-weight: bold;
+    padding: 38px 70px 0 0;
+}
+.active {
+    color: #ff720a !important;
+}
+.app-shipping-level li:last-child{
+	padding: 38px 0px 0px 0px;
+}
+.level-1{
+	background: url("images/level-1.png") no-repeat scroll 10px 0 rgba(0, 0, 0, 0);
+}
+.level-2{
+	background: url("images/level-2.png") no-repeat scroll 10px 0 rgba(0, 0, 0, 0);
+}
+.level-3{
+	background: url("images/level-3.png") no-repeat scroll 10px 0 rgba(0, 0, 0, 0);
+}
+.shipping_contact{
+	background: #ebebeb;
+	border-bottom: 1px solid #bebcbc;
+	padding: 20px 10px;
+}
+.contact-icon{
+	border-radius: 4px;
+	border:2px solid #fff;
+	box-shadow:0 0 3px 0 #d9d9d9;
+	-moz-box-shadow:0 0 3px 0 #d9d9d9;
+	-webkit-box-shadow:0 0 3px 0 #d9d9d9;
+	width: 65px;
+	height: 65px;
+	display: inline-block;
+}
+.contact-icon img{
+	border-radius: 4px;
+	border:2px solid #fff;
+	box-shadow:0 0 3px 0 #d9d9d9;
+	-moz-box-shadow:0 0 3px 0 #d9d9d9;
+	-webkit-box-shadow:0 0 3px 0 #d9d9d9;
+	width: 60px;
+	height: 60px;
+}
+.contact-text{
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 15px;
+}
+.contact-text span {
+    display: inline-block;
+    width: 100%;
+    color: #333;
+    font-size: 13px;
+    text-transform: uppercase;
+    line-height: 27px;
+}
+.contact-text strong {
+    display: inline-block;
+    width: 100%;
+    color: #333;
+    font-size: 14px;
+    line-height: 27px;
+}
+.shipping_address{
+	background: #eaeaea;
+    padding: 20px;
+}
+.shipping_address h2{
+	color: #323232;
+	font-size: 22px;
+	line-height: 30px;
+	font-family: Arial,Helvetica,sans-serif;
+	padding-bottom: 15px;
+}
+.checkout-address{
+	background: #fff;
+	box-shadow:0 0 3px 0 #d9d9d9;
+	-moz-box-shadow:0 0 3px 0 #d9d9d9;
+	-webkit-box-shadow:0 0 3px 0 #d9d9d9;
+	padding: 20px;
+}
+.checkout-address ul li{
+	font-size: 13px;
+	line-height: 23px;
+	text-transform: capitalize;
+}
+.checkout-address-added{
+	background: #fff;
+	box-shadow:0 0 3px 0 #d9d9d9;
+	-moz-box-shadow:0 0 3px 0 #d9d9d9;
+	-webkit-box-shadow:0 0 3px 0 #d9d9d9;	
+	margin-top: 20px;
+	text-align: center;
+}
+.checkout-address-added a{
+	padding: 70px 20px;
+	display: inline-block;
+}
+.secure_title{
+	width: 100%;
+}
+.secure_title span{
+	font-size: 13px;
+	line-height: 30px;
+	font-family: Arial,Helvetica,sans-serif;
+	color: #323232;
+}
+.secure_title strong{
+	font-size: 13px;
+	line-height: 30px;
+	font-family: Arial,Helvetica,sans-serif;
+	color: #323232;
+}
+
+.payment-success{
+	text-align: center;
+	padding: 40px 0px;
+}
+
+
+
+/*from developoer*/
+.shipping-addr {
+    color: inherit;
+}
+.error{
+color:#f00;
+}
+.txt-error{
+	background: none repeat scroll 0 0 rgba(253, 28, 10, 0.19) !important;
+    border: 1px solid red !important;
+}
+.disable .checkout-address {
+    background-color: #f5f5f5 !important;
+}
+.shipping-error{
+	color:#ff720a !important
+}
+.p_name{
+	text-transform:none !important;
+}
+/*from developoer*/
+
+/**-----------------Design By J -------------------**/
+@media only screen and (max-width:1200px){
+.shipping_address h2 {
+    margin-left: 0 !important;
+    padding: 15px;
+}
+span.payNote {
+    margin-left: 0 !important;
+    padding: 0px 15px 10px 15px;
+    word-wrap: break-word;
+    width: auto;
+    float: left;
+    line-height: 25px;
+}
+}
+
+
+@media only screen and (min-width:1024px) and (max-width:1200px){
+
+}
+
+@media only screen and (max-width:767px){
+.app-content-box h1{
+	    font-size: 14px;
+}
+.shipping_address h2{
+	font-size: 18px;
+    line-height: 24px;
+}
+span.payNote{
+	    padding: 0px 15px 15px 15px;
+	        font-size: 12px;
+}
+span.payNote b {
+    font-size: 13px;
+}
+.input-submit-btn{
+	margin: 0 auto;
+    display: block;
+}
+}
+
+@media only screen and (min-width:320px) and (max-width:567px){
+.shipping_address{
+	    padding: 10px;
+}
+
+.app-content-box h1 {
+    font-size: 12px;
+    line-height: 20px;
+        padding: 15px 10px;
+}
+.close_btn{
+	    width: 11px;
+    height: 11px;
+    background-position: center center;
+    margin-top: 4px;
+}
+.payment_radio {
+    width: auto !important;
+}
+.input-scroll-4{
+	    height: 35px;
+}
+.app-content-box ul li{
+	    padding: 10px 0 5px;
+}
+.input-submit-btn{
+	    font-size: 13px;
+    padding: 10px 5px;
+    width: 100%;
+}
+.shipping_address h2 {
+    font-size: 14px;
+    line-height: 22px;
+        padding: 10px 10px;
+}
+.app-content-box ul {
+    padding: 10px 0 !important;
+    float: left;
+    width: 100%;
+}
+.app-content-box ul > li {
+    margin: 0 10px 5px 10px;
+}
+span.payNote {
+    padding: 0px 10px 15px 10px;
+}
+}
+
+/**-----------------Design By J -------------------**/

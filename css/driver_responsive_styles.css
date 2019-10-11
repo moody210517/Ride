@@ -1,0 +1,201 @@
+/** Responsive CSS **/
+
+/* ============================= 1200px ====================== */
+
+@media screen and (max-width: 1200px){
+#content {
+    margin: 0px 0 20px 0;
+    min-height: 100%;
+}
+.grid_container .grid_1, .grid_container .grid_2, .grid_container .grid_3, .grid_container .grid_4, .grid_container .grid_5, .grid_container .grid_6, .grid_container .grid_7, .grid_container .grid_8, .grid_container .grid_9, .grid_container .grid_10, .grid_container .grid_11, .grid_container .grid_12{
+	    width: 100% !important;
+    margin-left: 0;
+    margin-right: 0;
+}
+.expiry_box{
+	width: auto !important;
+}
+.rider-info,.driver-info,section#cd-timeline{
+    text-align: center;
+}
+.chart_block {
+    width: 99%;
+    height: 360px;
+}
+}	
+
+@media screen and (min-width: 1024px) and (max-width: 1200px){
+#left_bar {
+    width: 200px !important;
+    float: left;
+}	
+	
+}
+
+/* ============================= 768px ====================== */
+
+@media screen and (max-width: 1023px){
+
+
+#theme-default .nav_icon, #theme-default .p_dashboard{
+	    display: none;
+}
+table.display,.tbl-open-close{
+	overflow-x: scroll;
+    /*display: block;*/
+}
+
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1023px){
+
+}
+
+
+/* ============================= 768px ====================== */
+
+@media screen and (max-width: 768px){
+.item_widget {
+    text-align: center;
+}
+.item_widget .item_block {
+    float: none !important;
+    display: inline-block;
+}
+.widget_content h1, .widget_content h2, .widget_content h3, .widget_content h4, .widget_content h5, .widget_content h6{
+	    padding: 0;
+}
+div#uniform-thumbnail {
+    margin-bottom: 10px;
+}
+.form_container ul li{
+	    padding: 15px 0 15px 0;
+    width: 100%;
+    float: left;
+}
+.left_label ul li .form_input{
+	    float: left;
+	        margin-left: 0;
+}
+.widget_content p{
+	margin-bottom: 0;
+}
+.table_content {
+    overflow: auto !important;
+}
+table.custom-table.grid_5.right {
+    width: 96% !important;
+    max-width: 100%;
+    margin: 20px;
+    float: left !important;
+}
+
+
+
+
+}
+
+@media screen and (max-width: 767px){
+.stat_chart .profile_chart,.stat_chart .profile_chart_lbl{
+        width: 100% !important;
+}
+.chart_label li div#star-pos,.chart_label li span {
+    display: inline-block;
+    vertical-align: middle;
+}
+.stat_chart .chart_label{
+    margin-left: 10px;
+}
+.left_label ul li label.field_title {
+    width: 31%;
+}
+.left_label ul li .form_input {
+    width: 65%;
+}
+.left_label ul li .form_input input,.left_label ul li .form_input textarea {
+    width: 90% !important;
+}
+
+}
+
+
+
+/* ============================= 567px ====================== */
+
+
+@media screen and (min-width: 320px) and (max-width: 567px){
+#header {
+    height: 160px !important;
+}
+.header_left {
+    width: 100% !important;
+    float: left !important;
+    margin-left: 0 !important;
+}
+.header_right {
+    width: 100% !important;
+    margin-top: 35px;
+    margin-right: 0 !important;
+}
+.logout a {
+    margin: 0;
+}
+.stat_chart .profile_chart,.stat_chart .profile_chart_lbl,.stat_chart .pie_chart,.stat_chart .chart_label{
+	    width: 100% !important;
+}
+table.profile_tbl {
+    overflow-x: auto;
+    display: block;
+}
+.stat_chart .chart_label{
+	padding-top: 10px;
+}
+.left_label ul li label.field_title {
+    width: 100%;
+    margin-right: 0;
+}
+.left_label ul li .form_input {
+    width: 100%;
+    margin-left: 0;
+}
+.form_container textarea{
+	width: 100% !important;
+}
+#tab2 h2{
+	    font-size: 15px;
+    text-align: center;
+}
+.lengthLabel{
+    padding-right: 0;
+}
+.custom-table {
+    width: 100% !important;
+    margin: 20px 0 !important;
+}
+.widget_top h6{
+	    width: 100%;
+    float: left;
+        font-size: 11px;
+}
+.widget_top h6{
+    line-height: 44px;
+    padding-left: 50px;
+    margin-left: 0;
+}
+.stat_chart .pie_chart {
+    display: inline-block;
+    float: none;
+        text-align: center;
+}
+.stat_chart .pie_chart span.inner_circle {
+    display: inline-block;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.stat_chart .chart_label {
+    margin-left: 0;
+        text-align: center;
+}
+}

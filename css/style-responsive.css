@@ -1,0 +1,263 @@
+/** Responsive CSS **/
+
+/**** Width for 1024 * 768 **/
+@media only screen and (max-width: 1250px),(min-device-width: 768px) and (max-device-width: 1024px) {
+
+.login_container {
+    float: right;
+    margin: 140px 10px 0 0;
+    width: 425px;
+}
+.login_left {
+    float: left;
+    margin: 100px 0 0 10px;
+    width: 53% !important;
+}
+	
+}
+
+/* ============================= 768px ====================== */
+
+@media screen and (min-width: 768px) and (max-width: 1023px)
+{
+.login_left{
+	display: none;
+}
+
+.login_container {
+    margin: 140px 161px 0 0;
+}
+
+}
+
+
+/* ============================= 736px ====================== */
+
+@media screen and (min-width: 736px) and (max-width: 767px)
+{
+
+.login_left{
+	display: none;
+}
+.login_container {
+    float: right;
+    margin: 20px 140px 0 0;
+    width: 425px;
+}
+
+}
+
+
+/* ============================= 667px ====================== */
+
+
+@media screen and (min-width: 667px) and (max-width: 735px)
+{
+	
+.login_left {
+    display: none;
+}
+.login_container {
+    float: right;
+    margin: 20px 140px 0 0;
+    width: 425px;
+}
+#login_page {
+     /* background: url("../images/bg-red.jpg") repeat scroll 0 0 / 100% 100% #833334; */
+	background-color:#000;
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
+}
+
+/* ============================= 600px ====================== */
+
+
+@media screen and (min-width: 600px) and (max-width: 666px)
+{
+	
+.login_left{
+	display: none;
+}
+#login_page {
+    /* background: url("../images/bg-red.jpg") repeat scroll 0 0 / 100% 100% #833334; */
+	background-color:#000;
+    position: absolute;
+    width: 100%;
+}
+.login_container {
+    float: right;
+    margin: 20px 67px 30px 0;
+    width: 425px;
+}
+
+}
+
+/* ============================= 568px ====================== */
+
+@media screen and (min-width: 568px) and (max-width: 599px)
+{
+	
+.login_left {
+    display: none;
+}
+#login_page {
+     /* background: url("../images/bg-red.jpg") repeat scroll 0 0 / 100% 100% #833334; */
+	background-color:#000;
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+.login_container {
+    float: right;
+    margin: 20px 67px 30px 0;
+    width: 425px;
+}
+
+
+}
+
+/* ============================= 480px ====================== */
+
+
+@media screen and (min-width: 480px) and (max-width: 567px)
+{
+.login_left{
+	display: none;
+}
+#login_page {
+     /* background: url("../images/bg-red.jpg") repeat scroll 0 0 / 100% 100% #833334; */
+	background-color:#000;
+    position: absolute;
+    width: 100%;
+}
+.login_container {
+    float: right;
+    margin: 20px 67px 30px 0;
+    width: 425px;
+}
+.login_left img{
+	 width: 81% !important;
+	 height: 340px !important;
+}
+
+
+}
+
+/* ============================= 414px ====================== */
+
+@media screen and (min-width: 414px) and (max-width: 479px)
+{
+.login_left{
+	display: none;
+}
+#login_page {
+     /* background: url("../images/bg-red.jpg") repeat scroll 0 0 / 100% 100% #833334; */
+	background-color:#000;
+    position: absolute;
+    width: 100%;
+}
+.login_container {
+    float: right;
+    margin: 20px 26px 30px 0;
+    width: 80%;
+}
+.login_left img{
+	 width: 81% !important;
+	 height: 340px !important;
+}
+
+
+}
+
+/* ============================= 384px ====================== */
+
+
+@media screen and (min-width: 384px) and (max-width: 413px)
+{
+	
+.login_left{
+	display: none;
+}
+#login_page {
+     /* background: url("../images/bg-red.jpg") repeat scroll 0 0 / 100% 100% #833334; */
+	background-color:#000;
+    position: absolute;
+    width: 100%;
+}
+.login_container {
+    float: right;
+    margin: 20px 26px 30px 0;
+    width: 346px;
+}
+.login_left img{
+	 width: 81% !important;
+	 height: 245px !important;
+	 margin-top: 34px !important;
+}
+
+
+}
+
+/* ============================= 375px ====================== */
+
+
+@media screen and (min-width: 375px) and (max-width: 383px)
+{
+.login_left {
+    display: none;
+}
+#login_page {
+     /* background: url("../images/bg-red.jpg") repeat scroll 0 0 / 100% 100% #833334; */
+	background-color:#000;
+    position: absolute;
+    width: 100%;
+}
+.login_container {
+    float: right;
+    margin: 20px 26px 30px 0;
+    width: 346px;
+}
+.login_left img{
+	 width: 81% !important;
+	 height: 245px !important;
+	 margin-top: 34px !important;
+}
+
+
+}
+/* ============================= 320px ====================== */
+
+
+@media screen and (min-width: 320px) and (max-width: 374px)
+{
+.login_left {
+    display: none;
+}
+#login_page {
+     /* background: url("../images/bg-red.jpg") repeat scroll 0 0 / 100% 100% #833334; */
+	background-color:#000;
+    position: absolute;
+    width: 100%;
+}
+
+.login_container {
+    float: right;
+    margin: 20px 26px 30px 0;
+    width: 85%;
+}
+.login_left img {
+    height: 191px !important;
+    margin-top: 29px !important;
+    width: 81% !important;
+}
+.login_header .login_branding{
+	width: 95%;
+}
+
+
+}
+
+

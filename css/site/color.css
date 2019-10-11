@@ -1,0 +1,182 @@
+/*---Header---*/
+
+section.header{
+	background-color: #fff !important;
+}
+#sidebar-wrapper {
+    background: #fff !important;
+}
+.nav_menu_header {
+    background: #fff !important;
+}
+.sidebar-nav li a{
+	color: #000;
+}
+.reg_col, .reg_col a, div#wrapper .menu{
+	color: #000;
+}
+.hamburger.is-closed .hamb-top, .hamburger.is-closed .hamb-middle, .hamburger.is-closed .hamb-bottom{
+	background: #000;
+}
+.logo img{
+	max-height: 46px;
+margin-top: -7px;
+}
+
+
+/*---Header---*/
+
+/*---Homepage---*/
+
+
+.carousel-caption p.getup a{
+	background-color: #212121;
+}
+.row.why_header h2{
+	color: #E74C3C;
+}
+.download_app h1{
+	color: #E74C3C;
+}
+.estimate_form h3{
+	color: #E74C3C;
+}
+.newsletter_btn input[type="submit"], .newsletter_btn input[type="button"]{
+	background-color: #E74C3C;
+}
+.banner .carousel-control, .carousel-indicators{
+	display:none;
+}
+.carousel-caption h1, .carousel-caption p{
+	color:#fff;
+}
+.carousel-caption p.getup a{
+	background:#cf1717;
+}
+.carousel-caption p.booknow a{
+	color:#cf1717;
+}
+
+
+/*---Homepage---*/
+
+
+/*---Login-Page-Signup-page---*/
+
+
+p.driver-login a{
+	background: #E74C3C;
+}
+.rider_login_cont .login{
+	background: #E74C3C;
+}
+.rider_login_cont .forgot_pass a{
+	color: #E74C3C;
+}
+.rider_login_cont .register{
+	color: #E74C3C;
+	border: 1px solid #E74C3C;
+}
+.signup_to_ride_form input.otp_btn{
+	background-color: #E74C3C;
+}
+.signup_to_ride_form input.acc_creat:hover{
+	background-color: #E74C3C;
+}
+.signup_to_ride_form input.acc_creat{
+	background-color: #E74C3C;
+}
+.col.term_condition p a{
+	color: #E74C3C;
+}
+.driver_register_form h1{
+	background-color: #E74C3C;
+}
+.reg_col a:hover{text-decoration:none;color:#E74C3C;}
+
+
+/*---Login-Page-Signup-page---*/
+
+
+/*---Profile page----*/
+
+.profile_det li a:hover, .profile_det li a:focus{
+	background: #E74C3C;
+}
+
+.inner_full.editprofile input[type="submit"], .btn_profile{
+	background-color: #E74C3C;
+}
+.wh_btn{
+	color: #E74C3C;
+	border: 1px solid #E74C3C;
+}
+li.get_app ul.dropdown-menu.inner li:hover{
+	background: #E74C3C;
+}
+.rd_btn{
+	background: #E74C3C;
+	border: 1px solid #E74C3C;
+}
+.table > caption + thead > tr:first-child > td, .table > caption + thead > tr:first-child > th, .table > colgroup + thead > tr:first-child > td, .table > colgroup + thead > tr:first-child > th, .table > thead:first-child > tr:first-child > td, .table > thead:first-child > tr:first-child > th{
+	background-color: #fcd69f;
+color: #E74C3C;
+}
+.pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover{
+	background-color: #E74C3C !important;
+border-color: #E74C3C !important;
+}
+.myride td a{
+	color: #E74C3C;
+}
+.back-earn button{
+	background-color: #E74C3C;
+}
+
+/*---Profile page----*/
+
+
+/*---Rider Profile page----*/
+
+
+.cabily_amount .light{
+	background-color: #E74C3C;
+}
+.whatever{
+	color: #E74C3C;
+	border: 1px solid #E74C3C;
+}
+
+
+
+/*---Rider Profile page----*/
+
+section.footer_top, section.footer_bottom{
+	background:#212121;
+}
+.driver_reg_form input.next.action-button:hover{background-color:#118cb2;}
+
+
+/*---Driver Register page----*/
+
+.driver_reg_form input.next.action-button{
+	background-color: #fcb040;
+}
+.driver_reg_form input.next.action-button:hover{background-color:#fcb040;}
+.f_row+input.previous.action-button:hover{background-color:#fcb040;}
+
+.dr_otp_btn{
+	background-color: #fcb040 !important;
+}
+.dr_otp_btn:hover{background-color:#fcb040 !important;}
+
+.driver_reg_form input.next.action-button{background-color:#fcb040;}
+
+/*---Driver Register page----*/
+
+.header .profile_login_cont .caret{
+	color: #fcb040;
+}
+span.edit_title a{
+	color: #fcb040;
+}

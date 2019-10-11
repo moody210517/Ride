@@ -1,0 +1,109 @@
+ #theme-default .top_search, #theme-default .page_title, #theme-default .primary_active, #theme-default #primary_nav li a, #theme-default #secondary_nav ul li a, #theme-default .widget_top {
+	background:#070716;
+}
+#theme-default #secondary_nav ul li a:hover, #theme-default #secondary_nav ul li a.active {
+	color:#FFF;
+	font-size:12px;
+	background:#44CBE4 !important;
+}
+/*Pagination Colors Settings*/
+.paging_full_numbers a.paginate_button_disabled {
+	background:#44CBE4;
+	color:#FFF !important;
+	text-shadow:none;
+	font-size:11px;
+	border-bottom:#000 1px solid;
+	border-top:#000 1px solid;
+	border-left:#000 1px solid;
+}
+.paging_full_numbers a.paginate_button {
+	background:#44CBE4;
+	color: #fff !important;
+	text-shadow:1px 1px 0px #333;
+}
+.paging_full_numbers a.paginate_button:hover {
+	background:#070716;
+	-moz-box-shadow: inset 0 0 3px #9ecef6;
+	-webkit-box-shadow: inset 0 0 3px #9ecef6;
+	box-shadow: inner 0 0 3px #9ecef6;
+	text-decoration: none !important;
+}
+.paging_full_numbers a.paginate_active {
+	background-color: #fff;
+	-moz-box-shadow: inset 0 0 3px #aaa;
+	-webkit-box-shadow: inset 0 0 3px #aaa;
+	box-shadow: inner 0 0 3px #aaa;
+	color: #333 !important;
+	padding:2px 6px;
+	 margin:0;
+}
+/*Tab Color Settings*/
+#widget_tab ul li a {
+	height:39px;
+	display:inline-block;
+	text-align:center !important;
+	line-height:40px;
+	background:#070716;
+	padding:0 20px;
+	border-bottom:#ccc 1px solid;
+	border-left:#ccc 1px solid;
+	border-right:#ccc 1px solid;
+	color:#FFF;
+	margin:0;
+}
+#widget_tab ul li a.active_tab {
+	background:#44CBE4;
+	height:39px;
+	color:#FFF;
+	border-bottom: none;
+	background-position: 0 -447px;
+}
+
+/*Filter Widget Color Settings*/
+.widget_wrap.filter_wrap {
+    margin: 20px 0 !important;
+}
+.filter_wrap {
+    margin-top: 20px;
+    width: 100%;
+}
+.filter_widget{
+	background-color: #44CBE4 !important;
+	padding: 5px;
+}
+.filter_widget input,select{
+	 border: 1px solid #d8d8d8;
+    font-family: "OpenSansRegular";
+    font-size: 12px;
+    padding: 5px 2px;
+	width:250px;
+}
+.filterbtn {
+    background-color: #a7a9ac !important;
+    border: 1px solid #e0761a;
+    color: #000;
+    margin-bottom: 5px;
+    vertical-align: middle;
+	cursor:pointer
+}
+.filterbtn span {
+    background-color: #a7a9ac !important;
+    color: #fff !important;
+    font-weight: bold;
+}
+.filter_widget .btn_30_light {
+    width: 84%;
+	margin: -11px;
+}
+.filterbtn.rgt {
+    float: right;
+}
+#filter_form {
+    float: left;
+    width: auto;
+	margin-top: 5px;
+}
+#export_form {
+	margin-top: 8px;
+}
+/*Admin Panel Colors */

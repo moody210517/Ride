@@ -1,0 +1,313 @@
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+a{ text-decoration:none;font-size:13px ;
+	margin:0px 2px 0 5px;
+	padding:0px;
+	text-decoration:none;
+	color:#333 ;
+	/*font-family: 'AvantGardeBkBTBook' !important;*/
+	cursor:pointer;
+	} 
+a:hover{ text-decoration:none;} 
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+#property_table_length label{
+	width:48%;
+	float:left;
+	margin:5px 0 0 5px;
+	padding:0px;
+	font-size:13px;
+	font-family: 'OpenSansRegular';
+}
+#property_table_length select{
+	width:60px;
+	margin:0 0 0 0px;
+	padding:0px 0 0 3px;
+	border:#999 solid 1px;
+	color:#999;
+	font-size:12px;
+	font-family: 'OpenSansRegular';
+	font-weight:normal;
+
+}
+.dataTables_filter label{
+	margin:15px 0 0 0px;
+	padding:0px;
+	font-size:14px;
+	font-family: 'OpenSansRegular';
+	color:#999;
+	 line-height: 21px;
+}
+.dataTables_filter input{
+	margin:0px 0 0 0px;
+	padding:0px;
+	font-size:14px;
+	font-family: 'OpenSansRegular';
+	color:#999;
+	 line-height: 22px;
+}
+#property_table_info{
+	font-family: 'OpenSansRegular';
+	color:#999;
+	line-height: 22px;
+	font-size:14px;
+	margin:5px 0 0 0px;
+}
+#property_table_paginate a{
+	font-size:13px;
+	margin:10px 2px 0 5px;
+	padding:0px;
+	text-decoration:none;
+	color:#333;
+	float: left;
+	font-family: 'OpenSansRegular';
+}
+.field_view_use h1{
+	float:left;
+	margin:0 0 0 10px;
+	padding:0px;
+	font-size:13px;
+	font-family: 'OpenSansRegular';
+}
+.new_post_content h1{
+	float:left;
+	margin:0 0 0 10px;
+	padding:0px;
+	font-size:15px;
+	font-family: 'OpenSansRegular';
+}
+.dataTables_info{
+	margin:10px 0 15px 0px;
+	padding:0px;
+	font-size:16px;
+	font-family: 'OpenSansRegular';
+}
+
+
+.booking_inner_trip {
+    position:relative;
+}
+
+.left_base_trip,.rite_base_trip {
+    width: 49%;
+	float:left;
+}
+
+.rite_base_trip {
+float:right;}
+
+.booking_trip_sec .left_label ul li label.field_title {
+    width: 100%;
+    margin-bottom:10px;
+}
+
+.base_booking_trip {
+    width: 100%;
+    float: left;
+	    padding: 15px 0 0;
+}
+
+ul.trip_type_sec {
+    border: none !important;
+}
+
+.side_img_tag {
+background-image:url("../images/estimate_input_pg.png");
+width:5px;
+height:66px;
+background-repeat:no-repeat;
+position:absolute;
+top:0;
+left:0;}
+
+ul.estimate_sec_btn {
+    width: 100%;
+    float: left;
+    border: none !important;
+    margin: 20px 0;
+}
+
+ul.estimate_sec_btn li {
+    text-align: center;
+}
+
+.map_trip_book {
+    float: left;
+    width: 100%;
+}
+
+span.bg_img_rite {
+    background: url(../images/right-arrow.png);
+    width: 48px;
+    height: 100%;
+    display: inline-block;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #e84c3d;
+    background-position: center;}
+
+ul.estimate_sec_btn li button {
+    background: #e84c3d;
+    color: #fff;
+    border: none !important;
+    border-radius: 0;
+    margin: 0 5px;
+    padding: 0 18px !important;
+    height: 35px;
+    line-height: 35px !important;
+}
+
+.booking_trip_sec .base_booking_trip input[type="text"] {
+    margin-top: 10px;
+    width: 100% !important;
+    border: 1px solid #dcdede;
+    font-size: 13px;
+    border-radius:0 !important;
+	margin: 0;
+    padding: 0;
+    left: 33px;
+    top: 28px;
+    padding: 0px 14px;
+    height: 38px;
+}
+
+.booking_trip_sec li.catagory_type_sec label#ltrip_type {
+    width: auto !important;
+    float: left !important;
+    margin-top: 9px;
+}
+
+.booking_trip_sec .booking_inner_trip input[type="text"] {
+    padding: 0 35px;
+}
+
+.booking_trip_sec li {
+    padding: 0 !important;
+    margin-bottom: 10px;
+}
+
+/* div#simplemodal-container {
+    background: #fff;
+    border: none;
+    box-shadow: none;
+    color: #000;
+} */
+
+
+
+.booking_trip_sec li.catagory_type_sec .form_input {
+    width: auto;
+    float: left;
+}
+
+.booking_trip_sec select {
+border-radius:0 !important;}
+
+li.listing_phone_num .form_input input#mobile_number {
+    width: 70% !important;
+}
+
+li.listing_phone_num .form_input input#mobile_number {
+    width: 84% !important;
+    height: 38px;
+}
+
+li.listing_phone_num .form_input select {
+    width: 15% !important;
+    height: 38px;
+	border-radius:0 !important;
+}
+
+.booking_trip_sec select#category {
+    margin-top: 10px;
+    width: 100% !important;
+    border: 1px solid #dcdede;
+    font-size: 13px;
+    margin: 0;
+    left: 33px;
+    top: 28px;
+    padding: 0px 35px;
+    height: 48px;
+}
+
+.base_booking_trip p {
+    padding: 0 !important;
+}
+
+p.first_pickup {
+    margin-bottom:12px;
+	    position: relative;
+	
+}
+
+.booking_inner_trip label.error {
+    position: absolute;
+    left: 0;
+    bottom: -11px;
+}
+
+p.side_img_tag {
+    margin: 0;
+    padding: 0 !important;
+    left: 3%;
+    top: 12px;
+}
+
+p.first_drop {
+    margin-bottom: 15px;
+	position:relative;
+}
+
+ul.estimate_sec_btn li {
+    margin: 0;
+}

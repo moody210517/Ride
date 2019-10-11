@@ -1,0 +1,57 @@
+.dark.bg_img {
+    background: none ;
+	background-color : #2B2921;
+    float: left;
+    min-height: 700px;
+    width: 100%;
+}
+.head_category h1 {
+    font: 200 1em "LatoRegular";
+    letter-spacing: 7px;
+    padding-top: 1px;
+}
+.category_cont h2 {
+    font: 16px "LatoRegular";
+    padding-top: 0;
+}
+.category_inner {
+    height: 55px;
+}
+.category_base h4 {
+    font: bold 14px "LatoRegular";
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.category_base p {
+    min-height: 70px;
+    padding: 7px;
+}
+.foot_catgory {
+    height: 1px;
+}
+.driver_detail_center {
+    padding-top: 10px;
+}
+.driver_sign_up_form {
+    margin-bottom: 0;
+    padding: 0 15px !important;
+}
+.sign_up_base .mob_resend_otp {
+    padding: 10px 4px !important;
+    width: auto !important;
+}
+/**-----------------design by J-----------------**/
+.sign_up_base input#mobile_number {
+    width: 73%;
+}
+.sign_up_base input#termsCondition {
+    float: left;
+    height: auto;
+    margin-right: 8px;
+}
+.sign_up_base .mob_otp {
+    width: 61%;
+    float: left;
+    margin-right: 10px;
+}
+/**-----------------design by J-----------------**/

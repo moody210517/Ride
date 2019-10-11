@@ -1,0 +1,40 @@
+/*-------table-----------*/
+.custom-table {
+    width: 96%;
+    max-width: 100%;
+    margin: 20px;
+}
+custom-table {
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+custom-table {
+    background-color: transparent;
+}
+.custom-table > tbody > tr > td {
+    vertical-align: middle;
+}
+.custom-table-bordered > tbody > tr > td
+{
+	border: 1px solid #DDD;
+}
+.custom-table > thead > tr > th, .custom-table > tbody > tr > th, .custom-table > tfoot > tr > th, .custom-table > thead > tr > td, .custom-table > tbody > tr > td, .custom-table > tfoot > tr > td {
+	text-align: left;
+    padding: 8px;
+    line-height: 1.42857;
+    vertical-align: top;
+    border: 1px solid #DDD;
+}
+.custom-table > thead > tr > th{
+	background-color:#eeeeee;
+}
+
+table.custom-table tr:nth-child(even) {
+	background-color: #e5eff0;
+}
+table.custom-table tr:nth-child(even) {
+	background: #f7f7f7;
+}
+td.details, .details table tr{
+	background: #e1f0f8 !important;
+}

@@ -1,0 +1,206 @@
+#widget_tab ul li a.active_tab{
+	background:#e84c3d;
+	height: 38px;
+}
+#widget_tab ul li a{
+	background:#383f52;
+}
+#widget_tab ul li a:hover{
+	background:#e84c3d;
+	color:#fff;
+}
+#widget_tab ul li a:last-child{
+	border-top-right-radius: 0;
+}
+
+
+#header{
+	height: 52px;
+}
+#content{
+	margin: 15px 0;
+}
+
+#theme-default .logout a .icon{
+	background:url("../images/logout.png") no-repeat;
+    border: none;
+	border-radius:0px;
+	top: 5px;
+}
+#theme-default .logout a .icon:hover{
+	background:url("../images/logout.png") no-repeat !important;
+}
+
+#header{
+	/* background:#383f52; */
+	background:#fff;
+	box-shadow: 0 0 1.5rem rgba(120,130,140,0.13);
+}
+#theme-default .widget_wrap{
+	border: medium none;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+#theme-default #container{
+	 border-left:none;
+	 box-shadow: none;
+}
+.foot-copyright{
+	background: #383f52;
+    float: right;
+    margin-bottom: 0;
+    padding: 15px;
+    width: 100%;
+	color:#ffffff;
+}
+#content{
+	margin: 10px 0;
+}
+.left-contsec{
+	background: #fff none repeat scroll 0 0;
+    border-radius: 3px;
+    border-top: 3px solid #e84c3d;
+    float: left;
+    margin-right: 0;
+    min-height: 465px;
+    padding: 20px;
+    width: 49.8%;
+}
+.bluebox{
+	background:#00c0ef !important;
+}
+
+.activities_s{
+	width: 30% !important;
+	padding:15px 0 0;
+	position: relative;
+	border:none !important;
+	margin:20px 0 3px 22px;
+	border-radius: 2px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+.user_icon_font{	
+	color: rgba(0, 0, 0, 0.15);
+    font-size: 90px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    transition: all 0.3s linear 0s;
+    z-index: 0;
+}
+.small-box-footer {
+    background: rgba(0, 0, 0, 0.1) none repeat scroll 0 0;
+    color: rgba(255, 255, 255, 0.8);
+    display: block;
+    padding: 6px 0;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    z-index: 10;
+	margin:20px 0 0;
+	min-height: 25px;
+}
+.small-box-footer:hover{
+	background: rgba(0, 0, 0, 0.15) none repeat scroll 0 0;
+	color:#fff;
+}
+.block_label span {
+    display: inline-block;
+    font-size: 38px;
+    font-weight: bold;
+    margin-top: 0px;
+    text-align: left;
+	width:100%;
+	padding-left:10px;
+}
+.block_label small {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 0px;
+    text-align: left;
+	width:100%;
+	padding-left:10px;
+	padding-top: 9px;
+	padding-bottom:10px;
+	text-transform: capitalize;
+}
+.activities_s.orangebox.big {
+    width: 66%;
+}
+.social_activities{
+	width: 100%;
+}
+.bluebox, .purplebox{
+	margin-left:0px;
+}
+.user_icon_font:hover{
+	font-size:95px;
+}
+
+.second-tab .dark-green , .second-tab .purplebox{
+	margin-left:0px;
+}
+.second-tab .bluebox{
+	margin-left:22px;
+}
+.dark-green {
+    background: #00a65a none repeat scroll 0 0 !important;
+    border: 1px solid #00a65a;
+}
+.bg-maroon {
+    background-color: #d81b60 !important;
+	border: 1px solid #d81b60;
+}
+.greenbox {
+    background: #00ca6d none repeat scroll 0 0 !important;
+    border: 1px solid #00ca6d;
+}
+.M0{
+	margin:0px;
+}
+#ride_dashboard .grid_12{
+	width:100% !important;
+}
+
+div#content .grid_container h3{
+	border-bottom: 1px solid #f1f1f1;
+	padding-bottom: 5px;
+}
+/* .map_users .activities_s {
+    width: 30% !important;
+} */
+.rider_login_cont .right .social i.fa.fa-google {
+    position: relative;
+    left: 25px;
+    top: 1px;
+}
+@media only screen and (min-width: 1024px) and (max-width: 1124px)
+{
+	.activities_s {
+    width: 29% !important;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 1124px)
+{
+	.social_activities .w-23 {
+    width: 21.5% !important;
+}
+}
+
+/**newfix on 2-11-17**/
+.stat_block, .data_widget.chart_wrap{
+    float: left;
+    width: 100%;
+    overflow: hidden;
+}
+.activities_s {
+    width: 32% !important;
+}	
+.mileage-block a.activities_s {
+    width: 23.4% !important;
+}
+.total-revenue .social_activities .activities_s {
+    width: 23.5% !important;
+	}

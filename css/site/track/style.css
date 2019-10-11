@@ -1,0 +1,280 @@
+/**--------------------common style design---------------------**/
+.full-width{
+	width: 100%;
+	float: left;
+}
+.no-padd{
+padding: 0;
+}
+ul,li{
+	list-style: none;
+}
+body{
+	outline: none;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+}
+a:hover,a:focus,a:active{
+	text-decoration:none;
+	outline: none;
+}
+body img{
+	max-width: 100%;
+}
+ul{
+	padding-left: 0;
+    margin-bottom: 0;
+}
+/**--------------------common style design---------------------**/
+
+
+/**--------------------Map design---------------------**/
+div#googleMap {
+    height: 100% !important;
+    width: 100% !important;
+    margin: 0;
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+.map-main {
+    height: 100%;
+    position: absolute;
+}
+.cab-arrive {
+    bottom: inherit;
+    top: 32px;
+    width: 480px;
+    left: 32px;
+    position: absolute;
+    opacity: 1;
+    transition: opacity 0.5s linear;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #fff;
+    -moz-box-shadow: 0 2px 8px rgba(0, 0, 0, .25);
+    -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, .25);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .25);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    overflow: hidden;
+}
+.cab-top {
+    padding: 10px 15px;
+    border-bottom: 3px solid #1FBAD6;
+}
+.cab-top-left {
+    float: left;
+    text-transform: uppercase;
+}
+.cab-top-right {
+    float: right;
+    border-left: 1px solid #e6e6e9;
+    padding-left: 20px;
+    padding-right: 5px;
+    text-align: center;
+}
+.cab-top-left h2 {
+    line-height: 22px;
+    font-size: 16px;
+}
+.cab-top-left span {
+    line-height: 20px;
+    font-size: 14px;
+        color: #9E9EA3;
+    font-weight: 600;
+}
+.cab-middle {
+    padding: 10px 15px 5px 15px;
+}
+.customer-profile {
+    float: left;
+    margin-right: 15px;
+    text-align: center;
+    position: relative;
+}
+.customer-profile img {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.customer-rating {
+    position: absolute;
+    left: 12px;
+    bottom: -7px;
+    border: 1px solid #d9d9de;
+    font-size: 10px;
+    font-weight: 600;
+    text-align: center;
+    background: #ffffff;
+    border-radius: 1px;
+    -moz-border-radius: 1px;
+    -o-border-radius: 1px;
+    -webkit-border-radius: 1px;
+}
+.customer-rating span {
+    padding-left: 4px;
+    padding-top: 1px;
+    padding-right: 4px;
+    float: left;
+}
+.star-raing {
+    border-left: 1px solid #d9d9de;
+    display: inline-block;
+    padding: 3px 4px 4px 4px;
+    vertical-align: top;
+    font-size: 8px;
+}
+.star-raing img {
+    width: 10px;
+    height: 10px;
+}
+.car-type {
+    float: left;
+    text-transform: uppercase;
+        margin-top: 10px;
+}
+.car-type h4 {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 21px;
+    margin-bottom: 3px;
+}
+.car-type h5 {
+    font-size: 13px;
+    font-weight: normal;
+}
+.car-type h5 span {
+    float: left;
+    margin-right: 10px;
+}
+.car-type h5 span:last-child {
+    margin-right: 0;
+    display: block;
+    border: 1px dashed #1FBAD6;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    font-size: 10px;
+    float: left;
+    line-height: 18px;
+    padding: 0 4px;
+    margin-top: -2px;
+}
+.cab-bottom {
+    padding: 10px 15px;
+    background: #000;
+}
+.cab-bottom h1 {
+    margin-top: 10px;
+}
+.cab-bottom h1, .cab-bottom h1 img {
+    float: left;
+}
+.cab-bottom h1 img{
+    width: 88px;
+    height: 13px;
+}
+a.sign-btn {
+    float: right;
+    font-size: 13px;
+    display: block;
+    color: #fff;
+    line-height: 27px;
+    padding: 2px 8px;
+    border: 1px solid #1FBAD6;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+	margin:7px;
+}
+.mobile-section {
+    display: none;
+    z-index: 9;
+    padding: 0;
+    opacity: 1;
+    transition: opacity 0.5s linear;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+/**--------------------Map design---------------------**/
+
+/**--------------------Respopnsive Design---------------------**/
+
+/* ============================= 767px ====================== */
+
+@media screen and (max-width: 767px){
+.cab-bottom{
+    display: none;
+}
+.mobile-section,.mobile-section .cab-bottom{
+    display: block;
+}
+.mobile-section .cab-bottom{
+        padding: 5px 15px;
+}
+.mobile-section a.sign-btn{
+    font-size: 11px;
+    color: #fff;
+    line-height: normal;
+    padding: 6px 8px;
+}
+.mobile-section .cab-bottom h1 {
+    margin-top: 7px;
+}
+.cab-arrive {
+    bottom: 10px;
+    top: inherit;
+    width: 90%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+}
+
+/* ============================= 767px ====================== */
+
+/* ============================= 768px ====================== */
+
+@media screen and (min-width: 320px) and (max-width: 567px){
+.mobile-section .cab-bottom {
+    padding: 5px 10px;
+}
+
+}
+
+/* ============================= 768px ====================== */
+
+/**--------------------Respopnsive Design---------------------**/
+
+
+.product-logo-wrap{
+display:inline-block;
+}
+.product-logo-wrap img{
+	max-height:28px;
+}
+.product-logo-wrap-desk{
+display:inline-block;
+}
+.product-logo-wrap-desk img{
+	max-height:33px;
+}
